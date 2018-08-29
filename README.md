@@ -6,6 +6,6 @@ $ docker-compose -f docker-compose.ver2.yml up -d
 $ docker stats --no-stream my-nginx
 
 # Compose file version 3
-$ docker-compose -f docker-compose.ver2.yml --compatibility up -d
+$ docker-compose -f docker-compose.ver3.yml --compatibility up -d
 $ docker stats --no-stream my-nginx
 ```
